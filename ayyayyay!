@@ -1,0 +1,26 @@
+public class Home {
+  String neighborhood;
+  int ageOfHome;
+  boolean occupied;
+}
+ public class Artists {
+  String genre;
+  int yearsInAction;
+  boolean areTheyAnyGood;
+} 
+public class Closet {
+  String typesOfClothes;
+  int numberOfClothes;
+  boolean areTheyInGoodCondition;
+}
+public class Theology {
+  String movementAssociated;
+  int numberOfFollowersToday;
+  boolean isTheologyPractical;
+}
+public class Tree {
+  String typeOfTree;
+  int ageOfTree;
+  boolean treePrunedRecently;
+}
+  
