@@ -1,0 +1,44 @@
+package com.theironyard.charlotte;
+
+/**
+ * Created by IntelliJ IDEA.
+ * User: Elisabeth
+ * Date: 8/2/16
+ * Time: 2:37 PM
+ * To change this template use File | Settings | File Templates.
+ */
+public class Home {
+  String neighborhood;
+  int ageOfHome;
+  boolean occupied;
+
+  Home(String neighborhood, int ageOfHome, boolean occupied){
+      this.neighborhood = neighborhood;
+      this.ageOfHome = ageOfHome;
+      this.occupied = occupied;
+
+  }
+
+    public String getNeighborhood() {
+      return neighborhood;
+  }
+  public void setNeighborhood(String neighborhood){
+      this.neighborhood = neighborhood;
+
+  }
+
+  public int getAgeOfHome() {
+       return ageOfHome;
+  }
+   public void setAgeOfHome (int ageOfHome) {
+       this.ageOfHome = ageOfHome;
+
+   }
+  public boolean getOccupied () {
+        return occupied;
+  }
+  public void setOccupied(boolean occupied) {
+        this.occupied = occupied;
+  }
+
+}
