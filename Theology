@@ -1,0 +1,45 @@
+package com.theironyard.charlotte;
+
+/**
+ * Created by IntelliJ IDEA.
+ * User: Elisabeth
+ * Date: 8/2/16
+ * Time: 4:47 PM
+ * To change this template use File | Settings | File Templates.
+ */
+public class Theology {
+    String movementAssociated;
+    int numberOfFollowersToday;
+    boolean isTheologyPractical;
+
+Theology (String movementAssociated, int numberOfFollowersToday, boolean isTheologyPractical) {
+    this.movementAssociated = movementAssociated;
+    this.numberOfFollowersToday = numberOfFollowersToday;
+    this.isTheologyPractical = isTheologyPractical;
+}
+    public String getMovementAssociated(){
+        return movementAssociated;
+    }
+    public void setMovementAssociated(String movementAssociated){
+        this.movementAssociated = movementAssociated;
+    }
+
+    public int numberOfFollowersToday (){
+        return numberOfFollowersToday;
+    }
+    public void numberOfFollowersToday (int numberOfFollowersToday){
+        this.numberOfFollowersToday = numberOfFollowersToday;
+    }
+    public boolean isTheologyPractical (){
+        return isTheologyPractical;
+    }
+    public void isTheologyPractical (boolean isTheologyPractical){
+        this.isTheologyPractical = isTheologyPractical;
+
+    }
+}
+
+
+
+
+
