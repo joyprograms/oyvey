@@ -1,0 +1,59 @@
+package com.theironyard.charlotte;
+
+/**
+ * Created by IntelliJ IDEA.
+ * User: Elisabeth
+ * Date: 8/2/16
+ * Time: 4:41 PM
+ * To change this template use File | Settings | File Templates.
+ */
+public class Closet {
+  String typeOfClothes;
+  int numberOfClothes;
+  boolean areTheyInGoodCondition;
+
+  Closet (String typeOfClothes){
+      this.typeOfClothes = typeOfClothes;
+
+  }
+
+  Closet (int numberOfClothes){
+      this.numberOfClothes = numberOfClothes;
+
+  }
+
+  Closet (boolean areTheyInGoodCondition){
+      this.areTheyInGoodCondition = areTheyInGoodCondition;
+
+  }
+
+    public String getTypeOfClothes() {
+      return typeOfClothes;
+
+  }
+
+  public void setTypeOfClothes(String typeOfClothes){
+      this.typeOfClothes = typeOfClothes;
+
+  }
+
+  public int getNumberOfClothes() {
+       return numberOfClothes;
+
+  }
+  public void setNumberOfClothes (int numberOfClothes) {
+       this.numberOfClothes = numberOfClothes;
+
+   }
+
+  public boolean getAreTheyInGoodCondition () {
+        return areTheyInGoodCondition;
+
+  }
+
+  public void setAreTheyInGoodCondition(boolean areTheyInGoodCondition) {
+        this.areTheyInGoodCondition = areTheyInGoodCondition;
+
+  }
+
+}
