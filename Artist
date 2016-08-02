@@ -1,0 +1,46 @@
+package com.theironyard.charlotte;
+
+/**
+ * Created by IntelliJ IDEA.
+ * User: Elisabeth
+ * Date: 8/2/16
+ * Time: 3:55 PM
+ * To change this template use File | Settings | File Templates.
+ */
+public class Artist {
+    String genre;
+    int yearOfTenure;
+    boolean anyGood;
+
+Artist (String genre) {
+    this.genre = genre;
+}
+Artist (int yearOfTenure) {
+    this.yearOfTenure = yearOfTenure;
+}
+Artist (boolean anyGood){
+    this.anyGood = anyGood;
+}
+    public String getGenre(){
+        return genre;
+    }
+    public void setGenre(String genre){
+        this.genre = genre;
+    }
+
+    public int getYearOfTenure (){
+        return yearOfTenure;
+    }
+    public void setYearOfTenure (int yearOfTenure){
+        this.yearOfTenure = yearOfTenure;
+    }
+    public boolean getAnyGood (){
+        return anyGood;
+    }
+    public void setAnyGood (boolean anyGood){
+        if (anyGood = true);
+        System.out.println("Yeah. You should definitely go see him");
+          this.anyGood = anyGood;
+
+    }
+    }
